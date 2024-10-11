@@ -5,6 +5,7 @@ import Character from "./components/detailspageComponents/Character";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "./components/Header";
+import { Navigate } from "react-router-dom";
 
 function App() {
   const [characters, setCharacters] = useState({});
