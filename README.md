@@ -1,3 +1,12 @@
+# Поиск персонажей во вселенной Рик и Морти
+- React
+- Tailwind
+- Axios
+- React-router-dom
+
+  ![{DF2A4FBA-14A5-4077-BF13-32315AC83097}](https://github.com/user-attachments/assets/390f8d34-19df-4812-81c9-d5659af0f5bb)
+  *Фильтрация по эпизодам не может быть реализована так как api её не поддерживает
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
