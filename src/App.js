@@ -38,8 +38,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/" element={<Navigate replace to="/home" />} />
           <Route
-            path="/"
+            path="/home"
             element={
               <Homepage
                 onSubmit={fetchCharacters}

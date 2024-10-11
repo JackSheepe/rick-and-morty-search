@@ -5,7 +5,7 @@ export default function Header() {
   const navigate = useNavigate();
 
   const handleLogoClick = () => {
-    navigate("/");
+    navigate("/home");
   };
 
   return (
