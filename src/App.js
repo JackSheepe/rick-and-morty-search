@@ -5,7 +5,6 @@ import Character from "./components/detailspageComponents/Character";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "./components/Header";
-import { Navigate } from "react-router-dom";
 
 function App() {
   const [characters, setCharacters] = useState({});
@@ -39,9 +38,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate replace to="/home" />} />
           <Route
-            path="/home"
+            path="/"
             element={
               <Homepage
                 onSubmit={fetchCharacters}

@@ -3,10 +3,6 @@ import React, { useEffect, useState } from "react";
 export default function Searchform({ onSubmit, params, setParams }) {
   const [formData, setFormData] = useState(new FormData());
 
-  useEffect(() => {
-    console.log(params);
-  }, []);
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     formData.set(name, value);
