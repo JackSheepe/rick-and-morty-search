@@ -31,7 +31,7 @@ export default function Searchform({ onSubmit, params, setParams }) {
           name="name"
           id="name"
           placeholder="Rick"
-          className="rounded-md bg-transparent border border-white h-10 cursor-pointer appearance-none"
+          className="rounded-md bg-transparent border border-white h-10 cursor-pointer appearance-none pl-2 pr-2"
           onChange={handleChange}
           value={params.name || ""}
         />
@@ -43,7 +43,7 @@ export default function Searchform({ onSubmit, params, setParams }) {
         <select
           name="status"
           id="status"
-          className="rounded-md bg-transparent border border-white h-10 cursor-pointer appearance-none"
+          className="rounded-md bg-transparent border border-white h-10 cursor-pointer appearance-none pl-2 pr-2"
           onChange={handleChange}
           value={params.status || ""}
         >
@@ -66,7 +66,7 @@ export default function Searchform({ onSubmit, params, setParams }) {
         <select
           name="species"
           id="species"
-          className="rounded-md bg-transparent border border-white h-10 cursor-pointer"
+          className="rounded-md bg-transparent border border-white h-10 cursor-pointer pl-2 pr-2"
           onChange={handleChange}
           value={params.species || ""}
         >
@@ -88,7 +88,7 @@ export default function Searchform({ onSubmit, params, setParams }) {
           name="episode"
           id="episode"
           placeholder="33"
-          className="rounded-md bg-transparent border border-white h-10"
+          className="rounded-md bg-transparent border border-white h-10 pl-2 pr-2"
           onChange={handleChange}
           value={params.episode || ""}
         />
