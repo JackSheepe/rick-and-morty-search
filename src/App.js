@@ -39,7 +39,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path={process.env.PUBLIC_URL + "/"}
             element={
               <Homepage
                 onSubmit={fetchCharacters}

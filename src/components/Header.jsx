@@ -5,7 +5,7 @@ export default function Header() {
   const navigate = useNavigate();
 
   const handleLogoClick = () => {
-    navigate("/home");
+    navigate(process.env.PUBLIC_URL + "/");
   };
 
   return (
