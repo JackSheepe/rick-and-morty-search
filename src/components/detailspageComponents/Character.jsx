@@ -25,7 +25,6 @@ const Character = () => {
       Promise.all(episodePromises)
         .then((data) => setEpisodes(data))
         .catch((error) => console.error("Ошибка при загрузке эпизода:", error));
-      console.log(episodes);
     } catch (error) {
       console.error("Ошибка при загрузке персонажа:", error);
     }
